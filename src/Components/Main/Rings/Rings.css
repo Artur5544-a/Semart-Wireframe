@@ -1,0 +1,67 @@
+.rings-block h3 {
+    max-width: 1720px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 193px;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 55px;
+    color: #8A6C64;
+}
+
+.ring {
+    margin-top: 76px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(auto, 413px));
+    grid-gap: 48px 26px;
+    margin-bottom: 191px;
+}
+
+.ring-items {
+    border: 1px solid #AC867B;
+}
+
+.ring-img img {
+    width: 100%;
+}
+
+.rings-txt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rings-title h2 {
+    margin: 0 0 8px 21px;
+    color: #111111;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rings-title h3 {
+    margin: 0 0 0 21px;
+    margin-top: 23px;
+    color: #111111;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ring-icon svg {
+    margin: 0 16px;
+    color: #AC867B;
+    font-size: 35px;
+
+}
+
+@media screen and (max-width:920px) {
+    .rings-block h3 {
+        text-align: center;
+    }
+
+    .rings-title h3 {
+        margin: 0 0 0 -33px;
+    }
+}

@@ -1,0 +1,73 @@
+.ring-infos {
+    max-width: 1720px;
+    margin: 242px auto;
+    width: 100%;
+}
+
+.infos {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.infos-img {
+    width: 848px;
+
+}
+
+.infos-img img {
+    width: 100%;
+}
+
+.info-txt {
+    margin-top: 30px;
+}
+
+.info-txt h5 {
+    margin: 0 0 0 26px;
+    max-width: 575px;
+    font-size: 38px;
+    line-height: 45px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info-txt h4 {
+    margin: 28px 0 0 26px;
+    font-size: 38px;
+    line-height: 45px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info-txt h3 {
+    margin: 100px 0 0 26px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #111111;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info-txt-btn {
+    margin: 16px 0 0 25px;
+    padding: 13px 34px;
+    border-radius: 3px;
+    background-color: #AC867B;
+    color: #FAFAFA;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info-txt span {
+    border-radius: 3px;
+    padding: 12px;
+    background-color: #FFCCBC;
+
+}
+
+.info-txt span svg {
+    margin: -4px 0;
+    font-size: 20px;
+    color: #AC867B;
+}

@@ -1,0 +1,159 @@
+.Footer {
+    width: 100%;
+    background-color: #8A6C64;
+    height: 321px;
+}
+
+.footers {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1686px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 48px 20px;
+
+}
+
+.footers-title {
+    padding: 0 10px;
+}
+
+.footers-title p {
+    font-size: 34px;
+    line-height: 39px;
+    color: #fafafa;
+    font-family: 'Alice', serif;
+
+}
+
+.Footers-ul {
+    padding: 0 10px;
+}
+
+.Footers-ul p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    list-style: 28px;
+    color: #fafafa;
+}
+
+
+
+.Footers-ul ul {
+    margin-top: 23px;
+}
+
+.Footers-ul ul li {
+    margin: 5px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fafafa;
+    line-height: 21px;
+}
+
+.footers-ul2 {
+    padding: 0 10px;
+}
+
+.footers-ul2 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    list-style: 28px;
+    color: #fafafa;
+}
+
+.footers-ul2 ul {
+    margin-top: 23px;
+
+}
+
+.footers-ul2 ul li {
+    border-radius: 10px;
+    font-size: 20px;
+    color: #8A6C64;
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fafafa;
+
+}
+
+.footers-inp {
+    padding: 0 10px;
+    width: 376px;
+}
+
+.footers-inp h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #fafafa;
+}
+
+.inp {
+    margin-top: 15px;
+    position: relative;
+
+}
+
+.inputs {
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    position: absolute;
+    height: 45px;
+}
+
+.inputs::placeholder {
+
+    font-family: 'Roboto', sans-serif;
+    color: #8A6C64;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.btn-inp {
+    border: none;
+    box-sizing: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #fafafa;
+    background-color: #C09182;
+    padding: 8px 11px;
+    right: 0;
+    position: absolute;
+}
+
+@media screen and (max-width:852px) {
+    .Footer {
+        height: 100%;
+    }
+
+    .inp {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:475px) {
+    .footers {
+        justify-content: center;
+    }
+
+    .footers-title {
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .ul {
+        width: 51%;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+
+}
